@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TWscott 的小宇宙</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: #0f1117;
+      color: #f0f0f0;
+    }
+    header {
+      background: #1a1c23;
+      padding: 2rem;
+      text-align: center;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.5);
+    }
+    header h1 {
+      font-size: 2.5rem;
+      margin: 0;
+      color: #00ffff;
+    }
+    nav {
+      text-align: center;
+      margin-top: 1rem;
+    }
+    nav a {
+      margin: 0 1rem;
+      color: #00bcd4;
+      text-decoration: none;
+    }
+    section {
+      padding: 2rem;
+      max-width: 900px;
+      margin: auto;
+    }
+    h2 {
+      color: #00ffff;
+      border-bottom: 2px solid #00ffff;
+      padding-bottom: 0.3rem;
+    }
+    .project {
+      margin-bottom: 1.5rem;
+      padding: 1rem;
+      background: #1c1e26;
+      border-left: 4px solid #00bcd4;
+    }
+    footer {
+      text-align: center;
+      padding: 2rem;
+      font-size: 0.9rem;
+      color: #999;
+    }
+    input, textarea, button {
+      width: 100%;
+      padding: 0.5rem;
+      margin-top: 0.5rem;
+      border: none;
+      border-radius: 5px;
+    }
+    button {
+      background-color: #00bcd4;
+      color: #000;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>TWscott 的小宇宙</h1>
+    <nav>
+      <a href="#about">關於我</a>
+      <a href="#contact">聯絡方式</a>
+      <a href="#projects">作品集</a>
+    </nav>
+  </header>
+
+  <section id="about">
+    <h2>關於我</h2>
+    <p>哈囉，我是 TWscott，一名熱愛科技與創作的開發者。喜歡嘗試新事物、挑戰技術邊界，目前專注於 Python、C++、自動化與 AI 以及電學領域。</p>
+  </section>
+
+  <section id="contact">
+    <h2>聯絡方式</h2>
+    <p>Email：<a href="mailto:scott@example.com">scott951209@apps.ntpc.edu.tw</a></p>
+    <p>Discord：TWscott#1234</p>
+    <form>
+      <label>留言表單：</label><br/>
+      <input type="text" placeholder="你的名字" required />
+      <input type="email" placeholder="你的 Email" required />
+      <textarea rows="4" placeholder="請輸入訊息..."></textarea>
+      <button type="submit">送出</button>
+    </form>
+  </section>
+
+  <section id="projects">
+    <h2>作品集(計畫中)</h2>
+    <div class="project">
+      <h3>📌 Python 天氣爬蟲工具</h3>
+      <p>使用 requests + BeautifulSoup 製作，搭配 GUI 顯示天氣資訊，並具備自動更新功能。</p>
+    </div>
+    <div class="project">
+      <h3>🧠 ChatBot 聊天機器人</h3>
+      <p>可回答問候與氣象問題，並支援串接 LINE、Discord，提供即時互動體驗。</p>
+    </div>
+    <div class="project">
+      <h3>💻 Qt 桌面應用程式</h3>
+      <p>使用 Qt Widgets 開發的財務管理系統，支援本地儲存與多帳戶操作。</p>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 TWscott. All rights reserved.
+  </footer>
+</body>
+</html>
